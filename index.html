@@ -30,21 +30,12 @@
         
         <a href="#projects" class="btn">View My Projects</a>
       </div>
-      <div class="hero-image" onclick="flipProfile()">
-        <p class="click-text">Click the Profile Picture</p>
-
+      <div class="hero-image">
         <div class="profile-card" id="profileCard">
           <!-- FRONT -->
           <div class="profile-side profile-front">
             <img src="Front.jpg" alt="Profile Picture" />
           </div>
-
-          <!-- BACK -->
-          <div class="profile-side profile-back">
-            <img src="Back.jpg" alt="Profile Picture" />
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- ABOUT SECTION -->
@@ -89,14 +80,12 @@
 
       <!-- Midterm / Finals buttons -->
       <div class="term-tabs">
-        <button class="term-btn" data-target="midterm">Midterm</button>
+        <button class="term-btn active" data-target="midterm">Midterm</button>
         <button class="term-btn" data-target="finals">Finals</button>
       </div>
 
-      <p class="term-hint" id="termHint">Choose to see the activities.</p>
-
       <!-- MIDTERM -->
-      <div class="activities-grid term-panel" id="midterm">
+      <div class="activities-grid term-panel show" id="midterm">
         <a
           href="homepage.html"
           target="_blank"
@@ -104,7 +93,7 @@
         >
           <img src="Act1.png" alt="Laboratory Activity 1" />
           <div class="activity-info">
-            <h3>Laboratory Activity 1</h3>
+            <h3>Activity 1</h3>
           </div>
         </a>
 
@@ -115,7 +104,7 @@
         >
           <img src="Act2.png" alt="Laboratory Activity 2" />
           <div class="activity-info">
-            <h3>Laboratory Activity 2</h3>
+            <h3>Activity 2</h3>
           </div>
         </a>
 
@@ -126,7 +115,7 @@
         >
           <img src="Act3.png" alt="Laboratory Activity 3" />
           <div class="activity-info">
-            <h3>Laboratory Activity 3</h3>
+            <h3>Activity 3</h3>
           </div>
         </a>
 
@@ -137,7 +126,7 @@
         >
           <img src="Act4.png" alt="Laboratory Activity 4" />
           <div class="activity-info">
-            <h3>Laboratory Activity 4</h3>
+            <h3>Activity 4</h3>
           </div>
         </a>
       </div>
@@ -151,7 +140,7 @@
         >
           <img src="finalAct3.png" alt="Finals Laboratory Activity 2" />
           <div class="activity-info">
-            <h3>Laboratory Activity 3</h3>
+            <h3>Activity 3</h3>
           </div>
         </a>
 
@@ -162,7 +151,7 @@
         >
           <img src="finalAct4.png" alt="Finals Laboratory Activity 2" />
           <div class="activity-info">
-            <h3>Laboratory Activity 4</h3>
+            <h3>Activity 4</h3>
           </div>
         </a>
       </div>
